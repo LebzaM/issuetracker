@@ -13,12 +13,12 @@ const NavBar = () => {
     { id: 2, href: '/issues', label: 'Issues' },
   ];
   return (
-    <nav className="flex space-x-6 px-5 border-b h-14 mb-5 items-center">
+    <nav className=" space-x-6 px-5 border-b h-14 mb-5 items-center">
       <Link href="/">
         <AiFillBug className="text-2xl" />
       </Link>
 
-      <ul className="flex space-x-6">
+      <ul className=" space-x-6">
         {links.map((link) => (
           <Link
             href={link.href}

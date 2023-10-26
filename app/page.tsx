@@ -1,9 +1,19 @@
-import Image from 'next/image';
+'use client'
+import React, { useState } from 'react';
 
-export default function Home() {
+import Sidebar from './Sidebar';
+const Home: React.FC = () => {
+  
+
   return (
-    <main>
-      <h1>This is home page</h1>
-    </main>
+    <div className="flex">
+      
+      {/* <Sidebar />
+      <main className="flex-grow p-4">
+        <h1>Main Content</h1>
+      </main> */}
+    </div>
   );
-}
+};
+
+export default Home;
